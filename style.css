@@ -1,7 +1,21 @@
+/* style.css */
 .container {
     display: flex;
+    flex-wrap: wrap;
+    width: 80vh;
+    height: 80vh;
+    margin: auto; /* Centrar el contenedor */
+}
+
+body {
+    text-align: center;
 }
 
 #value {
     display:inline;
+}
+
+.grid-item {
+    box-sizing: border-box;
+    border: 1px solid #000;
 }
